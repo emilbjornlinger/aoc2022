@@ -4,7 +4,7 @@ import (
     "fmt"
     "os"
     "path/filepath"
-    "aoc2023/input"
+    "aoc2022/input"
 )
 
 const dayName string = "day19"

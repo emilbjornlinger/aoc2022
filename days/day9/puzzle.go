@@ -4,7 +4,7 @@ import (
     "fmt"
     "os"
     "path/filepath"
-    "aoc2023/input"
+    "aoc2022/input"
 )
 
 const dayName string = "day9"
@@ -21,6 +21,19 @@ func Puzzle1() {
     for _, line := range inputSlice {
         fmt.Println(line)
     }
+
+    // Have a struct for position containing x and y
+
+    // One pos for H and one for T
+
+    // Move head according to input, start both at 0, 0
+
+    // Perform motion of T according to logic -> one updateTail() function
+
+    // Convert position into strings and concatenate (-1, 5 -> "-15") and 
+    // put into a positionMap
+
+    // Count the number of entries when the simulation is done
 
     output := "Hello from " + dayName
     fmt.Printf("Output: %v\n", output)

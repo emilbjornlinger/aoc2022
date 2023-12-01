@@ -5,7 +5,7 @@ import (
     "os"
     "path/filepath"
     "strconv"
-    "aoc2023/input"
+    "aoc2022/input"
 )
 
 const dayName string = "day1"
@@ -22,7 +22,8 @@ func Puzzle1() {
         fmt.Println(currLine)
     }
 
-    fmt.Printf("Output: %v\n", counter)
+    output := "Hello from " + dayName
+    fmt.Printf("Output: %v\n", output)
 }
 
 func Puzzle2() {
@@ -37,7 +38,8 @@ func Puzzle2() {
         fmt.Println(currLine)
     }
 
-    fmt.Printf("Output: %v\n", counter)
+    output := "Hello from " + dayName
+    fmt.Printf("Output: %v\n", output)
 }
 
 func handleLine(line string, nums *[]int) {
