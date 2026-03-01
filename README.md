@@ -1,3 +1,5 @@
+# This repository has been moved to Codeberg: https://codeberg.org/ebjorn/aoc2022
+
 # aoc2022
 Advent of Code 2022
 
